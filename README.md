@@ -13,11 +13,11 @@ Database: MongoDB
 
 **Configuration**
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine using git clone <repository-url>
 
-   git clone <repository-url>
+2. To protect sensitive configuration data, we created the .env file
 
-2. Go to the src/main/resources folder.
+   Go to the src/main/resources folder.
 
    Create a new file named .env in this folder.
 
@@ -33,11 +33,12 @@ Database: MongoDB
 
     MONGO_CLUSTER=mycluster
 
-    To protect sensitive configuration data, we created the .env file
     Ensure that you have included spring-dotenv as a dependency in your pom.xml file.
 
 3. Running the Application
+
    Build and run the Spring Boot application.
 
 **NOTE**
+
 This README will be periodically updated to reflect project progress and milestones.

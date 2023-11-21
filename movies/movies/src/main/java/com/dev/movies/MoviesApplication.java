@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class MoviesApplication {
-
 	private static final Logger logger = LoggerFactory.getLogger(MoviesApplication.class);
 
 	public static void main(String[] args) {
@@ -25,6 +24,5 @@ public class MoviesApplication {
 		SpringApplication.run(MoviesApplication.class, args);
 
 	}
-
 
 }
